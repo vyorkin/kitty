@@ -84,7 +84,7 @@ cursor_trail_start_threshold 2
 # font_family      Retro Pixel Arcade
 # font_family      Retro Pixel Cute Mono
 
-font_size 14.0
+font_size 16.0
 
 #: }}}
 
@@ -611,7 +611,7 @@ draw_minimal_borders yes
 #: drawn. Note that setting a non-zero window_margin_width overrides
 #: this and causes all borders to be drawn.
 
-window_margin_width 10
+window_margin_width 0
 
 #: The window margin (in pts) (blank area outside the border). A
 #: single value sets all four sides. Two values set the vertical and
@@ -626,7 +626,7 @@ window_margin_width 10
 #: set the vertical and horizontal sides. Three values set top,
 #: horizontal and bottom. Four values set top, right, bottom and left.
 
-window_padding_width 5
+window_padding_width 4
 
 #: The window padding (in pts) (blank area between the text and the
 #: window border). A single value sets all four sides. Two values set
@@ -1981,7 +1981,8 @@ map kitty_mod+a>d set_background_opacity default
 
 
 map cmd+alt+1 set_colors --configured ~/.config/kitty/themes/PencilLight.conf
-map cmd+alt+2 set_colors --configured ~/.config/kitty/themes/Github.conf
+# map cmd+alt+2 set_colors --configured ~/.config/kitty/themes/Github.conf
+map cmd+alt+2 set_colors --configured ~/.config/kitty/themes/InspiredGithub.conf
 map cmd+alt+3 set_colors --configured ~/.config/kitty/themes/Mathias.conf
 map cmd+alt+4 set_colors --configured ~/.config/kitty/themes/tokyonight_moon.conf
 map cmd+alt+5 set_colors --configured ~/.config/kitty/themes/Seti.conf
@@ -2099,7 +2100,7 @@ map cmd+alt+0 set_colors --configured ~/.config/kitty/themes/Red_Alert.conf
 
 
 # BEGIN_KITTY_FONTS
-font_family      family="GohuFont uni14 Nerd Font Mono"
+font_family      family="Lekton Nerd Font Mono"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
