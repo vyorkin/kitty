@@ -1991,7 +1991,7 @@ map cmd+alt+5 set_colors --configured ~/.config/kitty/themes/Seti.conf
 map cmd+alt+6 set_colors --configured ~/.config/kitty/themes/Belafonte_Night.conf
 map cmd+alt+7 set_colors --configured ~/.config/kitty/themes/N0tch2k.conf
 map cmd+alt+8 set_colors --configured ~/.config/kitty/themes/Twilight.conf
-map cmd+alt+9 set_colors --configured ~/.config/kitty/themes/MonaLisa.conf
+map cmd+alt+9 set_colors --configured ~/.config/kitty/themes/Hipster_Green.conf
 map cmd+alt+0 set_colors --configured ~/.config/kitty/themes/Red_Alert.conf
 
 #: Reset the terminal
@@ -2101,7 +2101,7 @@ map cmd+alt+0 set_colors --configured ~/.config/kitty/themes/Red_Alert.conf
 
 
 # BEGIN_KITTY_FONTS
-font_family      family="BlexMono Nerd Font Mono"
+font_family      family="Terminess Nerd Font Mono"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
