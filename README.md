@@ -40,6 +40,9 @@ The `omarchy` branch is deployed to `~/.config/kitty/`.
   `listen_on unix:${XDG_RUNTIME_DIR}/omarchy-kitty-{kitty_pid}`, so
   `omarchy-cmd-terminal-cwd` and `omarchy launch terminal` can resolve the
   active terminal's working directory.
+- **No italics.** Italic and bold-italic text render with the upright faces:
+  `italic_font` and `bold_italic_font` are pinned to the Regular and SemiBold
+  JuliaMono faces.
 - **Icons:** the primary font is JuliaMono (from `main`); its Nerd Font glyph
   ranges are mapped to the installed JetBrainsMono Nerd Font instead of the
   macOS-only `Symbols Nerd Font Mono`.

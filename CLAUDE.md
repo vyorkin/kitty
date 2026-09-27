@@ -39,6 +39,9 @@ differences from `main`.
 - **`listen_on` must stay** `unix:${XDG_RUNTIME_DIR}/omarchy-kitty-{kitty_pid}`
   so Omarchy's cwd lookup works.
 - **Font:** JuliaMono, with Nerd Font ranges mapped to JetBrainsMono Nerd Font.
+- **No italics.** `italic_font` and `bold_italic_font` are pinned to the
+  upright JuliaMono faces (Regular / SemiBold). Do not restore `auto`; italic
+  text must render upright everywhere.
 
 ## When Editing
 
